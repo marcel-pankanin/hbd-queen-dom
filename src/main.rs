@@ -24,20 +24,36 @@ fn main() {
             "movies".to_string(),
             "frogs".to_string(),
             "dramas".to_string(),
+            "plush toys".to_string(),
+            "fourth wave feminism".to_string(),
+            "growth".to_string(),
+            "painting".to_string(),
+            "coffee".to_string(),
+            "chess".to_string(),
+            "plants".to_string(),
             "coding in Rust".to_string(),
+            "policies Team".to_string()
         ],
         hates: vec![
             "bad managers".to_string(),
             "selfish leadership".to_string(),
             "workplace isolation policies".to_string(),
+            "working without a mouse and a keyboard".to_string(),
+            "crowds".to_string(),
+            "man".to_string(),
+            "children".to_string(),
+            "dogs".to_string()
         ],
         achievements: vec![
             "learned Rust like a boss".to_string(),
             "joined the kernel team".to_string(),
+            "learned Kotlin in less than a year".to_string(),
+            "became a perfect leader in less than a year".to_string(),
+            "showed the boys adult conflict resolution strategies".to_string(),
             "escaped toxic management".to_string(),
         ],
         breakfast: "energy bars".to_string(),
-        brain_type: "ADHD superpower".to_string(),
+        brain_type: "AuDHD superpower".to_string(),
     };
 
 
@@ -48,6 +64,7 @@ fn main() {
             "terrible team management".to_string(),
             "selfish decision making".to_string(),
             "forbidding workplace friendships".to_string(),
+            "lack of empathy".to_string(),
         ],
     };
 
@@ -88,9 +105,13 @@ fn main() {
     wishes.insert("career", "May your kernel adventures be bug-free and fulfilling!");
     wishes.insert("movies", "May you discover amazing films and have cozy movie nights!");
     wishes.insert("frogs", "May cute frogs bring smiles to your face every day!");
-    wishes.insert("health", "May your ADHD be your creative superpower!");
+    wishes.insert("plush toys", "May you always have a plush toy with you!");
+    wishes.insert("concentration", "May you always have a Medikinet to listen to boring meetings!");
+    wishes.insert("patience", "May you always have a patience to imperfect world around you!");
+    wishes.insert("health", "May your AuDHD be your creative superpower!");
     wishes.insert("happiness", "May drama exist only in your favorite shows, not in real life!");
     wishes.insert("future", "May your new team appreciate your awesomeness!");
+    wishes.insert("chess", "May you never lose a game of chess to kids!");
 
     println!("🌟 OUR WISHES FOR YOU 🌟");
     for (category, wish) in wishes {
